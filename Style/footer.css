@@ -1,0 +1,136 @@
+footer{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.footer.background{
+    background-color: #303030;
+    height: 80vh;
+    width: 150%;
+    top: 30vh;
+    left: -5vw;
+    transform: rotateZ(7deg);
+    position: relative;
+    z-index: 10;
+}
+
+.footer.content{
+    background-color: #303030;
+    height: 100vh;
+    top: -45vh;
+    position: relative;
+    z-index: 20;
+}
+
+.footer.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer.newsletter form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.newsletter form label {
+    font-size: 2em;
+    font-weight: 700;
+    color: #CC0071;
+}
+
+.newsletter form div{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter form input{
+    width: 50vh;
+    background: linear-gradient(#4C4C4C, #4C4C4C) padding-box,
+                linear-gradient(315deg, #CC0071 , #0098CC 90%) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+    padding: 1%;
+    font-size: 1.5em;
+    color: #777777;
+}
+
+.newsletter form button{
+    width: 5vw;
+    background: linear-gradient(#4C4C4C, #4C4C4C) padding-box,
+                linear-gradient(315deg, #CC0071 , #0098CC 90%) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+    padding: 1%;
+    font-size: 2em;
+    color: rgb(186, 186, 186);
+    cursor: pointer;
+}
+
+.footer.table{
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #AEAEAE;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer.table h1{
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer.link{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.footer.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer.social div{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.footer.social i{
+    font-size: 4em;
+    background: -webkit-linear-gradient( 315deg, #CC0071 15%, #0098CC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer.link a{
+    text-decoration: none;
+    color: #AEAEAE;
+    font-size: 1.2em;
+}
+
+.footer.price{
+    font-size: 1.2em;
+}
+
+.credit{
+    top: 15vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #777777;
+    position: relative;
+}

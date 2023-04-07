@@ -1,0 +1,101 @@
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.title h1{
+    font-size: 3em;
+    color: #4C4C4C;
+    font-weight: 700;
+}
+
+.title .separator{
+    width: 40%;
+    height: 2px;
+    background-color: #0098CC;
+}
+
+.content_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+form.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    gap: 5vh;
+}
+
+form.contact div.nameemail{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+}
+
+.name, .email{
+    width: 100%;
+}
+
+.name, .email, .objet, .message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+form.contact label{
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+form.contact input{
+    height: 7vh;
+    width: 100%;
+    background: linear-gradient(#ffffff, #ffffff) padding-box,
+                linear-gradient(315deg, #0098CC, #CC0071) border-box;
+    border-radius: 50em;
+    border: 3px solid transparent;
+    padding: 1%;
+    font-size: 1.5em;
+}
+
+form.contact .objet, form.contact .message{
+    width: 100%;
+}
+
+form.contact textarea{
+    background: linear-gradient(#ffffff, #ffffff) padding-box,
+                linear-gradient(315deg, #0098CC, #CC0071) border-box;
+    border-radius: 3em;
+    border: 3px solid transparent;
+    padding: 3%;
+    font-size: 1.5em;
+    resize: none;
+    width: 97%;
+    height: 60vh;
+}
+
+form.contact button{
+    margin-top: 5vh;
+    height: 9vh;
+    width: 100%;
+    background: -webkit-linear-gradient( 315deg, #CC0071 15%, #0098CC);
+    border-radius: 50em;
+    border: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+
+}
+
+.footer.background{
+    top: 25vh;
+}

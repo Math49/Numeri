@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.header.background{
+    background: -webkit-linear-gradient( 315deg, #CC0071 , #0098CC 90%);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header.name_tag{
+    display: flex;
+    align-items: flex-end;
+    width:max-content;
+    background-color: white;
+    padding: 0.5% 2% 0.5% 5%;
+    text-decoration: none;
+}
+
+.header .logo_img{
+    max-width: 65px;
+    max-height: 65px;
+    width: auto;
+    height: auto;
+}
+
+.header .logo_text{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    background: -webkit-linear-gradient( 315deg, #CC0071 15%, #0098CC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header.menu{
+    display: flex;
+    gap: 5vh;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.menu a{
+    z-index: 9999;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3em;
+    position: relative;
+}
+
+.menu a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #ffffff;
+    height: 2px;
+}
+
+.menu a:hover:after {
+    width: 100%;
+}
+
+.menu a,
+.menu a:after,
+.menu a:before {
+  transition: all .5s;
+}

@@ -1,0 +1,78 @@
+.footer.background{
+    top: 25vh;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.title h1{
+    font-size: 3em;
+    color: #4C4C4C;
+    font-weight: 700;
+}
+
+.title .separator{
+    width: 40%;
+    height: 2px;
+    background-color: #0098CC;
+}
+
+.content_div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+
+.content_div div.text{
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    z-index: 10;
+}
+
+.content_div h2{
+    margin-top: 10vh;
+}
+
+.content_div h3{
+    margin-top: 5vh;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    gap: 100vh;
+    height: 800vh;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 100vh;
+    z-index: 1;
+}
+
+.element span{
+    display: flex;
+    transform: rotateZ(20deg);
+    position: relative;
+    left: -10vw;
+    top: 40vh;
+    width: 120%;
+    height: 10vh;
+}
+.element span:nth-child(2n-1){
+    background: -webkit-linear-gradient( 150deg, #0098CC 30%, #CC0071 );
+}
+.element span:nth-child(2n){
+    background: -webkit-linear-gradient( 45deg, #0098CC 30%, #CC0071 );
+
+}
